@@ -1,0 +1,22 @@
+<p>add-laptop works!</p>
+
+<div class="container">
+
+    <h2 class="center">Add laptop </h2>
+
+    <form>
+    
+
+
+        <div class="form-group">
+            <label for="year">Laptop name </label>
+            <input type="text" name="year" class="form-control" [(ngModel)]="newlaptop.name" id="year"
+                placeholder=" nameee">
+        </div>
+     
+
+        
+        <button type="submit" (click)="addLaptop()" class="btn btn-success">Add Kor </button>
+        
+    </form>
+</div>

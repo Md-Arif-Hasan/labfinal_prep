@@ -1,0 +1,18 @@
+.center{
+    text-align: justify;
+}
+
+#main{
+    /* background-image: url('../images/light.jpg'); */
+    background-repeat:  repeat;
+    height: 100%;
+    /* filter: blur(1px); */
+}
+
+html { 
+ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }

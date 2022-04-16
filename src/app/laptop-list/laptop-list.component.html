@@ -1,0 +1,24 @@
+<table class="table table-bordered table-hover  ">
+    <caption>List of laptops </caption>
+
+    <thead class="thead-dark">
+            <tr>
+                <th> Laptop ID </th>
+                <th> Laptop Name </th>
+                <th> Update </th>
+                <th> Delete </th>
+            </tr>
+
+    </thead>
+
+
+    <tbody class="thead-dark">
+        <tr *ngFor="let laptop of laptops; let i = index">
+            <td> {{ laptop.id}}</td>
+            <td> {{ laptop.name}}</td>
+            <td> <button class="btn btn-warning" (click)=" doUpdate(laptop)"> Update </button></td>
+            <td> <button class="btn btn-danger" (click)="doDelete(laptop)"> Delete </button></td>
+        </tr>
+    </tbody>
+
+</table>
